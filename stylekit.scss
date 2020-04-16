@@ -1,1 +1,22 @@
+@charset "utf-8";
+
+@use "sass:color";
+
+/*! stylekit v0.1.0 | MIT License | github.com/jmenterprises/stylekit */
+
+$scheme-main: #121212;
+$scheme-main-bis: color.scale($scheme-main, $lightness: 5%);
+$scheme-main-ter: color.scale($scheme-main, $lightness: 7%);
+$scheme-invert: rgba(#fff, 0.65);
+$scheme-invert-bis: color.scale($scheme-invert, $lightness: -5%);
+$scheme-invert-ter: color.scale($scheme-invert, $lightness: -7%);
+
+$text-strong: rgba(#fff, 0.65);
+$text-light: color.scale($text-strong, $lightness: -5%);
+$text: color.scale($text-strong, $lightness: -7%);
+$text-invert: hsl(0, 0%, 29%);
+
+$box-color: $text;
+$box-background-color: color.scale($scheme-main, $lightness: 5%);
+
 @import "bulma/bulma";

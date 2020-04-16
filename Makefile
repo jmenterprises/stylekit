@@ -14,3 +14,4 @@ help:
 ## Builds stylekit
 build:
 	sass stylekit.scss out/stylekit.css
+	sass stylekit.scss out/stylekit.min.css --style compressed

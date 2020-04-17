@@ -24,5 +24,14 @@ $text-light: $white-dark;
 $text: $white;
 $text-invert: $grey-darker;
 
+$link-hover: $white;
+
 $box-color: $white;
 $box-background-color: $grey-dark;
+
+// Panels
+$panel-heading-background-color: $grey;
+$panel-block-active-color: $white;
+
+// Pagination
+$pagination-disabled-color: $grey-dark !default

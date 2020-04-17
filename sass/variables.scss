@@ -1,0 +1,28 @@
+@use "sass:color";
+
+// Colours
+$grey-darker: #121212;
+$grey-dark: color.scale($grey-darker, $lightness: 5%);
+$grey: color.scale($grey-darker, $lightness: 7%);
+
+$white-darker: rgba(#fff, 0.65);
+$white-dark: color.scale($white-darker, $lightness: -5%);
+$white: color.scale($white-darker, $lightness: -7%);
+
+// Overrides
+$background: $grey;
+
+$scheme-main: $grey-darker;
+$scheme-main-bis: $grey-dark;
+$scheme-main-ter: $grey;
+$scheme-invert: $white-darker;
+$scheme-invert-bis: $white-dark;
+$scheme-invert-ter: $white;
+
+$text-strong: $white-darker;
+$text-light: $white-dark;
+$text: $white;
+$text-invert: $grey-darker;
+
+$box-color: $white;
+$box-background-color: $grey-dark;

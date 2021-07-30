@@ -4,6 +4,9 @@
 $grey-darker: #121212;
 $grey-dark: color.scale($grey-darker, $lightness: 5%);
 $grey: color.scale($grey-darker, $lightness: 7%);
+$grey-light: color.scale($grey-darker, $lightness: 9%);
+$grey-lighter: color.scale($grey-darker, $lightness: 11%);
+$grey-lightest: color.scale($grey-darker, $lightness: 13%);
 
 $white-darker: rgba(#fff, 0.65);
 $white-dark: color.scale($white-darker, $lightness: -5%);
@@ -18,6 +21,11 @@ $scheme-main-ter: $grey;
 $scheme-invert: $white-darker;
 $scheme-invert-bis: $white-dark;
 $scheme-invert-ter: $white;
+
+$border: $grey-lighter !default;
+$border-hover: $grey-light !default;
+$border-light: $grey-lightest !default;
+$border-light-hover: $grey-light !default;
 
 $text-strong: $white-darker;
 $text-light: $white-dark;
@@ -37,3 +45,6 @@ $panel-block-active-color: $white;
 
 // Pagination
 $pagination-disabled-color: $grey-dark !default;
+
+// Cards
+$card-background-color: $grey-dark;

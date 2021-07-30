@@ -29,9 +29,11 @@ $link-hover: $white;
 $box-color: $white;
 $box-background-color: $grey-dark;
 
+$shadow: 0 0.5em 1em -0.125em rgba($grey, 0.1), 0 0px 0 1px rgba($grey, 0.02) !default;
+
 // Panels
 $panel-heading-background-color: $grey;
 $panel-block-active-color: $white;
 
 // Pagination
-$pagination-disabled-color: $grey-dark !default
+$pagination-disabled-color: $grey-dark !default;
